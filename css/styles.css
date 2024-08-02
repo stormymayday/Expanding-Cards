@@ -20,3 +20,18 @@ body {
     display: flex;
     width: 90vw;
 }
+
+.panel {
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+    color: #fff;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    transition: flex 0.7s ease-in;
+    display: flex;
+    align-items: flex-end;
+}
