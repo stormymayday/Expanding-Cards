@@ -39,10 +39,14 @@ body {
 .panel h3 {
     font-size: 1.5rem;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-bottom: 20px;
     display: none;
 }
 
 .panel.active {
     flex: 5;
+}
+
+.panel.active h3 {
+    display: block;
 }
